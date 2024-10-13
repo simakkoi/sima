@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Projects Bulletin Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crypto Projects Bulletin Board</h1>
+
+        <form id="postForm">
+            <label for="projectName">Project Name:</label>
+            <input type="text" id="projectName" placeholder="Enter project name" required />
+
+            <label for="projectDescription">Description:</label>
+            <textarea id="projectDescription" placeholder="Enter project description" required></textarea>
+
+            <button type="submit">Post Announcement</button>
+        </form>
+
+        <h2>Announcements:</h2>
+        <div id="announcements"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
